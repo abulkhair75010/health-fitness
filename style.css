@@ -1,0 +1,66 @@
+.menu-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+
+.menu-items {
+    display: flex;
+}
+
+.menu-items li {
+    list-style: none;
+    margin: 5px;
+    padding: 17px;
+    font-size: 20px;
+}
+
+.menu-items li:hover {
+    color: darkgoldenrod;
+    cursor: pointer;
+
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.banner-description {
+    margin-left: 50px;
+}
+
+.banner-text {
+    font: 40px;
+    color: red;
+}
+
+.title1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.banner-left {
+    margin-left: 30px;
+}
+
+.text {
+    font: size 30px;
+}
+
+.banner-btn {
+    padding: 15px 30px;
+    background-image: linear-gradient(red, orange);
+    margin: 18px;
+    color: white;
+}
+
+.banner-btn:hover {
+    cursor: pointer;
+}
